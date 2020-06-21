@@ -10,8 +10,8 @@ fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
 # Import coordinate and connectivity data
-molecular_coordinates_df = pd.read_excel(r"C:\Users\abate\Desktop\Python Programming\molecule model\Adenosine Coordinates.xlsx", sheet_name=0)
-molecular_connectivity_df = pd.read_excel(r"C:\Users\abate\Desktop\Python Programming\molecule model\Adenosine Coordinates.xlsx", sheet_name=1)
+molecular_coordinates_df = pd.read_excel(r"C:\Users\abate\Desktop\Python Programming\molecule model\Adenosine_Coordinates.xlsx", sheet_name=0)
+molecular_connectivity_df = pd.read_excel(r"C:\Users\abate\Desktop\Python Programming\molecule model\Adenosine_Coordinates.xlsx", sheet_name=1)
 
 # Assign colors
 n=0
